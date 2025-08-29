@@ -24,7 +24,7 @@ class VideoAudioProcessorGUI:
         self.root = tk.Tk()
         self.root.title("🎬 Video/Audio Processing Toolkit")
         self.root.geometry("1200x800")
-        self.root.configure(bg="#2f0000")
+        self.root.configure(bg='#2b2b2b')
         
         # Configure style
         self.style = ttk.Style()
@@ -42,10 +42,10 @@ class VideoAudioProcessorGUI:
     def configure_styles(self):
         """Configure modern dark theme styles"""
         # Configure colors
-        bg_color = "#930000"
+        bg_color = '#2b2b2b'
         fg_color = '#ffffff'
-        accent_color = "#b10000"
-        button_color = "#b70000"
+        accent_color = '#4a9eff'
+        button_color = '#3d3d3d'
         
         self.style.configure('Title.TLabel', 
                            background=bg_color, 
@@ -98,7 +98,7 @@ class VideoAudioProcessorGUI:
         
         ttk.Label(status_frame, text="Status:", style='Heading.TLabel').pack(side='left')
         ttk.Label(status_frame, textvariable=self.status_var, 
-                 background="#9a0000", foreground='#4a9eff').pack(side='left', padx=10)
+                 background='#2b2b2b', foreground='#4a9eff').pack(side='left', padx=10)
         
         # Progress bar
         self.progress_var = tk.DoubleVar()

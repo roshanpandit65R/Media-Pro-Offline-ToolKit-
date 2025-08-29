@@ -225,7 +225,8 @@ cd mediaforge-pro
 pip install -r requirements.txt
 python mediaforge_pro.py
 ```
-
+## Images 
+![alt text](<Screenshot 2025-08-29 123522.png>) ![alt text](<Screenshot 2025-08-29 123340.png>) ![alt text](<Screenshot 2025-08-29 123406.png>) ![alt text](<Screenshot 2025-08-29 123426.png>) ![alt text](<Screenshot 2025-08-29 123437.png>) ![alt text](<Screenshot 2025-08-29 123514.png>)
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -238,29 +239,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Librosa**: For audio analysis
 - **NoiseReduce**: For audio denoising algorithms
 
-## 📞 Support
 
-- **Issues**: Report bugs on GitHub Issues
-- **Documentation**: Check the Wiki for detailed guides
-- **Community**: Join our Discord server for help and discussions
 
-## 🗺️ Roadmap
 
-### Version 2.0 (Planned)
-- [ ] GPU acceleration support
-- [ ] Cloud processing integration
-- [ ] Advanced video effects
-- [ ] Plugin system for custom processors
-- [ ] Web interface option
-- [ ] Mobile app companion
-
-### Version 1.5 (In Development)
-- [ ] Real-time preview
-- [ ] Batch template system
-- [ ] Enhanced natural language understanding
-- [ ] Video stabilization
-- [ ] Audio equalization
 
 ---
 
-**MediaForge Pro** - Professional media processing made simple.
+**MediaPro** - Professional media processing made simple.
