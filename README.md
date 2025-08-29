@@ -1,4 +1,4 @@
-# MediaForge Pro
+# Media Pro Offline Tool
 
 A comprehensive GUI-based video and audio processing toolkit with AI-powered features and natural language command processing.
 
